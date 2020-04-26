@@ -9,7 +9,7 @@ class Transfer
  end
  
  def valid?
-   
+   account.sender.valid? && account.receiver.valid?
  end
  
  def execute_transaction
