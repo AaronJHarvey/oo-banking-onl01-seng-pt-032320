@@ -24,6 +24,7 @@ class Transfer
  end
  
  def reverse_transfer
+   self.status = "reversed"
  end
  
  def reject_transfer
