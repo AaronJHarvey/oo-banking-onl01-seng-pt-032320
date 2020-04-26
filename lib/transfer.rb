@@ -15,7 +15,7 @@ class Transfer
  
  def execute_transaction
    if valid? && sender.balance > amount
-     
+   end
  end
  
  def reverse_transfer
